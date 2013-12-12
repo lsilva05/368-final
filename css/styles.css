@@ -1,0 +1,218 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	position: relative;
+	background: url(../img/banner.png) no-repeat 50% 0;
+		
+	}
+
+.margin{
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.container{
+	background: -webkit-linear-gradient(top,rgba(255,255,255,.85),rgba(255,255,255,.35)); /*Safari*/
+	background: -o-linear-gradient(top,rgba(255,255,255,.85),rgba(255,255,255,.35)); /*Opera 11-12*/
+	background: -moz-linear-gradient(top,rgba(255,255,255,.85),rgba(255,255,255,.35)); /*Fx 3.6-15*/
+	background: linear-gradient(top,rgba(255,255,255,.85),rgba(255,255,255,.35)); /*Standard*/
+	
+	  max-width: 960px;
+	  width: 96%;
+	  margin: 0 auto;
+	  height: 65vh;
+	  border-top: solid #F3F3F3 3px;
+}
+
+article{
+  padding: 0 3%;
+  font-family: 'Duru Sans', sans-serif;
+  font-size: .8em;
+}
+
+header{
+	height: 200px;
+
+	
+}
+
+nav{
+  height: 60px;
+  background: #d6d6d6;
+  border-top: white 5px solid;
+    border-bottom: white 5px solid;
+}
+
+ul{
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+
+li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 2% 0 2%;
+  width: 13%;
+  float: left;
+}
+
+nav div li:nth-child(1), div li:nth-child(2){
+  text-align: right;
+}
+
+li>div{
+  width: 100%;
+  margin-top: 23px;
+  
+  text-transform: uppercase;
+  font-size: 1em;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/*LINK STYLES*/
+
+a:link{
+	text-decoration: none;
+	color: black;
+	
+	transition: .25s ease-out;
+	-webkit-transition: .25s ease-out;
+	-o-transition: .25s ease-out;
+	-moz-transition: .25s ease-out;
+}
+
+a:visited{
+	color: #666666;
+}
+
+a:hover{
+	color: #0C9;
+	
+}
+
+a:active{
+	color: #FF1FFF;
+}
+
+/**NAV ANIMATION**/
+
+.oculus{
+  background: url(../img/nav-sprites.png) no-repeat;
+  border: #d6d6d6 solid 12px;
+  border-radius: 50%;
+  width: 175px;
+  height: 175px;
+  float: left;
+  margin-top: -80px;
+  
+}
+
+.oculus:hover{
+	background: url(../img/nav-sprites.png) no-repeat 0 -175px;
+}
+
+
+
+/**  CONTENT  **/
+
+h1{
+	font-size: 2.5em;
+	color: #585858;
+	margin-top: 70px;
+}
+
+
+h2{
+	color: #626262;
+}
+
+p{
+	margin-left: 50px;
+
+/** SPECIAL PAGES**/
+
+#about{
+	background: url(../img/nav-sprites.png) no-repeat 0 -350px;
+}
+
+#about:hover{
+	background: url(../img/nav-sprites.png) no-repeat 0 -525px;
+}
+
+
+#portfolio{
+	background: url(../img/nav-sprites.png) no-repeat 0 -700px;
+}
+#portfolio:hover{
+	background: url(../img/nav-sprites.png) no-repeat 0 -875px;
+}
+
+#links{
+	background: url(../img/nav-sprites.png) no-repeat 0 -1050px;
+}
+#links:hover{
+	background: url(../img/nav-sprites.png) no-repeat 0 -1225px;
+}
+
+
+#contact{
+	background: url(../img/nav-sprites.png) no-repeat 0 -1400px;
+}
+#contact:hover{
+	background: url(../img/nav-sprites.png) no-repeat 0 -1575px;
+}
+
+
+
+
+@media screen and (max-width: 900px){
+	
+	ul{
+		padding: 0;}
+
+}
+
+
+@media screen and (max-width: 780px){
+li>div{
+	font-size: .8em;
+}
+
+li{
+	margin: 0 1%;
+}
+
+.oculus{
+	height:135px;
+	width: 135px;
+	border: #d6d6d6 solid 7px;
+}
+
+
+
+@media screen and (max-width: 650px){
+
+li{
+  list-style: none;
+  display: block;
+  margin: 0 .75;
+  width: 13%;
+  float: left;
+}
+
+.oculus{
+	height:125px;
+	width: 125px;
+	border: #d6d6d6 solid 5px;
+}
+
+
+
+
+@media screen and (max-width: 480px){
+	oculus{
+	display: none;
+	}
