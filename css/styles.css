@@ -208,8 +208,13 @@ li{
 
 
 
+/*TEST*/
+.body_links .oculus{
+background: url(../img/nav-sprites.png) no-repeat 0 -1050px;
 
-@media screen and (max-width: 480px){
-	oculus{
-	display: none;
-	}
+}
+
+.body_links .oculus:hover{
+background: url(../img/nav-sprites.png) no-repeat 0 -1225px;
+
+}
