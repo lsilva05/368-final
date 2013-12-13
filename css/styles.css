@@ -135,7 +135,7 @@ p{
 /** SPECIAL PAGES**/
 
 #about{
-	background: url(../img/nav-sprites.png) no-repeat 0 -350px;
+	background: url(../img/nav-sprites.png) no-repeat 0% -350px;
 }
 
 #about:hover{
