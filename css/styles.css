@@ -153,10 +153,6 @@ h2{
 
 
 /*LINKS*/
-#body_links h2{
-	float: left;
-	margin-right: 3%;
-}
 
 /*PORTFOLIO*/
 .art-cosplay div{
@@ -188,7 +184,7 @@ li{
 	border: #d6d6d6 solid 7px;
 }
 
-
+}
 
 @media screen and (max-width: 650px){
 
@@ -205,16 +201,4 @@ li{
 	width: 125px;
 	border: #d6d6d6 solid 5px;
 }
-
-
-
-/*TEST*/
-.body_links .oculus{
-background: url(../img/nav-sprites.png) no-repeat 0 -1050px;
-
-}
-
-.body_links .oculus:hover{
-background: url(../img/nav-sprites.png) no-repeat 0 -1225px;
-
 }
